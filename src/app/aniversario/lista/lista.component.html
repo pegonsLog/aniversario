@@ -1,0 +1,53 @@
+<div class="margem15">
+  <div class="container">
+    <h1>Lista de aniversariantes</h1>
+    <h2>Mês: {{ _filtrarData }}</h2>
+
+    <div class="margin15">
+      <div
+        class="
+          form-group
+          row
+          justify-content-left
+          align-items-center
+          d-print-none
+          m
+        "
+      >
+        <label class="col-sm-2 text-right">Filtrar por nome</label>
+        <div class="col-sm-3">
+          <input [(ngModel)]="filtrarNome" class="form-control" />
+        </div>
+
+        <label class="col-sm-2 text-right">Filtrar por data</label>
+        <div class="col-sm-3">
+          <input [(ngModel)]="filtrarData" class="form-control" />
+        </div>
+      </div>
+    </div>
+    <table class="table table-striped">
+      <thead>
+        <tr>
+          <th>Nome</th>
+          <th>Cargo</th>
+          <th>Dia do Aniversário</th>
+          <th class="text-center">Opção</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let aniversariante of aniversariantesFiltrados">
+          <td>{{ aniversariante.nome }}</td>
+          <td>{{ aniversariante.cargo }}</td>
+          <td>{{ aniversariante.diaAniversario }}</td>
+          <td>
+            <a
+              [routerLink]="['/aniversario/editar', aniversariante.id]"
+              class="btn btn-primary"
+              >Editar</a
+            >
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>

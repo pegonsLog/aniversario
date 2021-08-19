@@ -1,0 +1,22 @@
+.margem15 {
+  margin-top: 20px;
+
+}
+label {
+  font-size: 17px;
+  font-weight: 600;
+}
+h1 {
+  font-size: 30px;
+  font-weight: bold;
+
+}
+.marginBotton{
+  margin-bottom: 30px;
+}
+h2 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 5px;
+  margin-bottom: 40px;
+}
