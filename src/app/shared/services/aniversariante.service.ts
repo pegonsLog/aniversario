@@ -7,10 +7,13 @@ import { Aniversariante } from '../model/aniversariante';
 
 export class AniversarianteService {
 
+  aniversariante: Aniversariante = new Aniversariante;
+
   retrieveAll(): Aniversariante[]{
     return ANIVERSARIANTES;
   }
-}
+
+  }
 
 var ANIVERSARIANTES: Aniversariante[] =
   [

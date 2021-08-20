@@ -1,6 +1,6 @@
-<div class="margem20">
+<div class="margem35">
   <div class="container">
-    <h1>Lista de aniversariantes</h1>
+    <h1>Aniversariantes</h1>
     <h2>Mês: {{ _filtrarData }}</h2>
 
     <div class="margin15">
@@ -15,23 +15,24 @@
         "
       >
 
-        <div class="col-sm-3">
+        <div class="col-sm-4">
           <input [(ngModel)]="filtrarNome" class="form-control" placeholder="Filtro por nome"/>
         </div>
 
-        <label>ou</label>
-        <div class="col-sm-3">
+        <label class="col-sm-1 text-center">ou</label>
+        <div class="col-sm-4">
           <input [(ngModel)]="filtrarData" class="form-control" placeholder="Filtro por mês"/>
         </div>
       </div>
     </div>
+
     <table class="table table-striped">
       <thead>
         <tr>
           <th>Nome</th>
           <th>Cargo</th>
           <th>Dia do Aniversário</th>
-          <th class="text-center">Opção</th>
+          <th class="text-center d-print-none">Opção</th>
         </tr>
       </thead>
       <tbody>
@@ -39,10 +40,10 @@
           <td>{{ aniversariante.nome }}</td>
           <td>{{ aniversariante.cargo }}</td>
           <td>{{ aniversariante.diaAniversario }}</td>
-          <td>
+          <td class="d-print-none">
             <a
-              [routerLink]="['/aniversario/editar', aniversariante.id]"
-              class="btn btn-info btn-sm"
+              [routerLink]="['/aniversario/info', 'aniversariante.id']"
+              class="btn btn-info btn-sm mr-2"
               >Editar</a
             >
           </td>
