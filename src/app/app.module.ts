@@ -6,7 +6,6 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { RouterModule } from '@angular/router';
 import { CadastroComponent } from './aniversario/cadastro/cadastro.component';
 import { ListaComponent } from './aniversario/lista/lista.component';
-import { ListaModule } from './aniversario/lista/lista.module';
 import { AppComponent } from './app.component';
 import { NavBarComponent } from './shared/components/nav-bar/nav-bar.component';
 import { Erro404Component } from './shared/components/erro404/erro404.component';
@@ -23,9 +22,9 @@ import { InfoComponent } from './aniversario/info/info.component';
     NavBarComponent,
     Erro404Component,
     EditarComponent,
-    ListaComponent,
+    RodapeComponent,
     InfoComponent,
-    RodapeComponent
+    ListaComponent,
 
   ],
 
@@ -34,13 +33,13 @@ import { InfoComponent } from './aniversario/info/info.component';
     BrowserAnimationsModule,
     ReactiveFormsModule,
     FormsModule,
-    ListaModule,
+
     RouterModule.forRoot([
       {
         path: '', redirectTo: 'lista', pathMatch: 'full'
       },
       {
-        path: 'info/:id', component: InfoComponent
+        path: 'aniversario/info/:id', component: InfoComponent
       },
       {
         path: 'editar/:id', component: EditarComponent

@@ -9,13 +9,13 @@ import { ActivatedRoute } from '@angular/router';
 
 export class InfoComponent implements OnInit {
 
-  aniversarianteId: number = 0;
+  aniversarianteId: number;
 
   constructor(private activatedRoute: ActivatedRoute) {
    }
 
   ngOnInit(): void {
-
+  this.aniversarianteId = +this.activatedRoute.snapshot.paramMap.get('id');
   }
 
 }

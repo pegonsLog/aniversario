@@ -15,12 +15,12 @@
         "
       >
 
-        <div class="col-sm-4">
+        <div class="col-sm-5">
           <input [(ngModel)]="filtrarNome" class="form-control" placeholder="Filtro por nome"/>
         </div>
 
         <label class="col-sm-1 text-center">ou</label>
-        <div class="col-sm-4">
+        <div class="col-sm-5">
           <input [(ngModel)]="filtrarData" class="form-control" placeholder="Filtro por mês"/>
         </div>
       </div>
@@ -41,13 +41,10 @@
           <td>{{ aniversariante.cargo }}</td>
           <td>{{ aniversariante.diaAniversario }}</td>
           <td class="d-print-none">
-            <a
-              [routerLink]="['/aniversario/info', 'aniversariante.id']"
-              class="btn btn-info btn-sm mr-2"
-              >Editar</a
+            <a [routerLink]="['/aniversario/info', aniversariante.id]" class="btn btn-info btn-sm mr-2">Editar</a
             >
           </td>
-        </tr>
+        </tr>s
       </tbody>
     </table>
   </div>
