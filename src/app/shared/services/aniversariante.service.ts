@@ -42,6 +42,18 @@ var ANIVERSARIANTES: Aniversariante[] =
       nome: 'Maria',
       cargo: 'Administrativo',
       diaAniversario: '04/Março'
+    },
+    {
+      id: 4,
+      nome: 'Audrey',
+      cargo: 'Estudante',
+      diaAniversario: '04/Junho'
+    },
+    {
+      id: 5,
+      nome: 'Dylan',
+      cargo: 'Operador de games ',
+      diaAniversario: '26/Novembro'
     }
   ]
 
