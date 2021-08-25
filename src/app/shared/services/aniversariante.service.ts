@@ -7,12 +7,20 @@ import { Aniversariante } from '../model/aniversariante';
 
 export class AniversarianteService {
 
-  aniversariante: Aniversariante = new Aniversariante;
-
   retrieveAll(): Aniversariante[]{
     return ANIVERSARIANTES;
   }
 
+  retrieveById(id: number): Aniversariante{
+    return ANIVERSARIANTES.find((aniversarianteIterator: Aniversariante) => aniversarianteIterator.id === id);
+  }
+
+  salvar(aniversariante: Aniversariante): void{
+    if(aniversariante.id){
+      const index = ANIVERSARIANTES.findIndex((aniversarianteIterator: Aniversariante) => aniversarianteIterator.id === aniversariante.id);
+      ANIVERSARIANTES[index] = aniversariante;
+    }
+  }
   }
 
 var ANIVERSARIANTES: Aniversariante[] =

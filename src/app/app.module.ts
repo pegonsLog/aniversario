@@ -42,10 +42,10 @@ import { InfoComponent } from './aniversario/info/info.component';
         path: 'aniversario/info/:id', component: InfoComponent
       },
       {
-        path: 'editar/:id', component: EditarComponent
+        path: 'aniversario/edicao/:id', component: EditarComponent
       },
       {
-        path: 'cadastro/:id', component: CadastroComponent
+        path: 'aniversario/cadastro/:aniversariante', component: CadastroComponent
       },
       {
         path: 'lista', component: ListaComponent

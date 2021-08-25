@@ -1,1 +1,34 @@
-<p>cadastro works!</p>
+
+<h2>Cadastro de Aniversariante</h2>
+
+<hr/>
+
+<form #aniversarioForm="ngForm">
+  <div class="form-group row">
+    <label class="col-sm-2 col-form-label">Nome:</label>
+    <div class="col-sm-10">
+      <input [(ngModel)]="aniversariante.nome"  required nome="nome" #aniversarianteName="ngModel" [ngClass]="{'is-invalid': aniversarianteName.invalid}" class="form-control">
+      <div class="invalid-feedback">
+        <span>O nome é obrigatório</span>
+      </div>
+    </div>
+  </div>
+  <div class="form-group row">
+    <label class="col-sm-2 col-form-label">Cargo:</label>
+    <div class="col-sm-10">
+      <input [(ngModel)]="aniversariante.cargo"  required cargo="cargo" #aniversarianteCargo="ngModel" [ngClass]="{'is-invalid': aniversarianteCargo.invalid}" class="form-control">
+      <div class="invalid-feedback">
+        <span>O nome é obrigatório</span>
+      </div>
+    </div>
+  </div>
+  <div class="form-group row">
+    <label class="col-sm-2 col-form-label">Dia do aniversário:</label>
+    <div class="col-sm-10">
+      <input [(ngModel)]="aniversariante.diaAniversario"  required diaAniversario="diaAniversario" #aniversarianteDiaAniversario="ngModel" [ngClass]="{'is-invalid': aniversarianteCargo.invalid}" class="form-control">
+      <div class="invalid-feedback">
+        <span>O dia do aniversário é obrigatório</span>
+      </div>
+    </div>
+  </div>
+</form>

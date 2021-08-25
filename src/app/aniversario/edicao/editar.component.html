@@ -1,3 +1,36 @@
-<p>editar works teste retorno do Git!</p>
 
+<h1>Editar aniversariante</h1>
 
+<hr/>
+
+<form #aniversarioForm="ngForm">
+  <div class="form-group row">
+    <label class="col-sm-2 col-form-label">Nome:</label>
+    <div class="col-sm-10">
+      <input [(ngModel)]="aniversariante.nome"  required name="nome" #aniversarianteName="ngModel" [ngClass]="{'is-invalid': aniversarianteName.invalid}" class="form-control">
+      <div class="invalid-feedback">
+        <span>O nome é obrigatório</span>
+      </div>
+    </div>
+  </div>
+  <div class="form-group row">
+    <label class="col-sm-2 col-form-label">Cargo:</label>
+    <div class="col-sm-10">
+      <input [(ngModel)]="aniversariante.cargo"  required name="cargo" #aniversarianteCargo="ngModel" [ngClass]="{'is-invalid': aniversarianteCargo.invalid}" class="form-control">
+      <div class="invalid-feedback">
+        <span>O nome é obrigatório</span>
+      </div>
+    </div>
+  </div>
+  <div class="form-group row">
+    <label class="col-sm-2 col-form-label">Dia do aniversário:</label>
+    <div class="col-sm-10">
+      <input [(ngModel)]="aniversariante.diaAniversario"  required name="diaAniversario" #aniversarianteDiaAniversario="ngModel" [ngClass]="{'is-invalid': aniversarianteCargo.invalid}" class="form-control">
+      <div class="invalid-feedback">
+        <span>O dia do aniversário é obrigatório</span>
+      </div>
+    </div>
+  </div>
+  <button [disabled]="aniversarioForm.invalid" (click)="salvar()" class="btn btn-primary mr-2">Salvar</button>
+  <button [routerLink]="['/lista']" class="btn btn-secondary">Cancelar</button>
+</form>

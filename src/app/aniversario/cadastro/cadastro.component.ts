@@ -1,4 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import { ActivatedRoute } from '@angular/router';
+import { Aniversariante } from 'src/app/shared/model/aniversariante';
+import { AniversarianteService } from 'src/app/shared/services/aniversariante.service';
 
 @Component({
   templateUrl: './cadastro.component.html',
@@ -6,9 +9,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CadastroComponent implements OnInit {
 
-  constructor() { }
+  aniversariante: Aniversariante = new Aniversariante();
+
+
+  constructor(private activatedRoute: ActivatedRoute, private aniversarianteService: AniversarianteService) {
+   }
 
   ngOnInit(): void {
+
   }
 
 }
