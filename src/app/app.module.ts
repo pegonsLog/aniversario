@@ -11,6 +11,7 @@ import { NavBarComponent } from './shared/components/nav-bar/nav-bar.component';
 import { Erro404Component } from './shared/components/erro404/erro404.component';
 import { EditarComponent } from './aniversario/edicao/editar.component';
 import { InfoComponent } from './aniversario/info/info.component';
+import { HttpClientModule } from '@angular/common/http';
 
 
 
@@ -33,6 +34,7 @@ import { InfoComponent } from './aniversario/info/info.component';
     BrowserAnimationsModule,
     ReactiveFormsModule,
     FormsModule,
+    HttpClientModule,
 
     RouterModule.forRoot([
       {

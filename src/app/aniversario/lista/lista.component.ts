@@ -15,7 +15,7 @@ export class ListaComponent implements OnInit {
 
   _filtrarNome: string = '';
   _filtrarData: string = '';
-  
+
   constructor(private aniversarianteService: AniversarianteService) { }
 
   ngOnInit(): void {
@@ -44,7 +44,4 @@ export class ListaComponent implements OnInit {
   get filtrarData() {
     return this._filtrarData;
   }
-
 }
-
-
