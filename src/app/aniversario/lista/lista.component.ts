@@ -11,7 +11,7 @@ export class ListaComponent implements OnInit {
 
   aniversariantesFiltrados: Aniversariante[] = [];
 
-  _aniversariantes: Aniversariante[] = [];
+  _aniversariantes: Aniversariante[] = []; 
 
   _filtrarNome: string = '';
   _filtrarData: string = '';
@@ -34,7 +34,7 @@ export class ListaComponent implements OnInit {
   set filtrarData(value: string) {
     this._filtrarData = value;
     this.aniversariantesFiltrados = this._aniversariantes
-      .filter((aniversariante: Aniversariante) => aniversariante.diaAniversario.toLocaleLowerCase()
+      .filter((aniversariante: Aniversariante) => aniversariante.mesAniversario.toLocaleLowerCase()
         .indexOf(this._filtrarData.toLocaleLowerCase()) > -1);
   }
 

@@ -12,8 +12,7 @@ import { Erro404Component } from './shared/components/erro404/erro404.component'
 import { EditarComponent } from './aniversario/edicao/editar.component';
 import { InfoComponent } from './aniversario/info/info.component';
 import { HttpClientModule } from '@angular/common/http';
-
-
+import { OrderPipe } from './order.pipe';
 
 @NgModule({
 
@@ -26,7 +25,8 @@ import { HttpClientModule } from '@angular/common/http';
     RodapeComponent,
     InfoComponent,
     ListaComponent,
-
+    OrderPipe,
+    
   ],
 
   imports: [
@@ -35,7 +35,7 @@ import { HttpClientModule } from '@angular/common/http';
     ReactiveFormsModule,
     FormsModule,
     HttpClientModule,
-
+    
     RouterModule.forRoot([
       {
         path: '', redirectTo: 'lista', pathMatch: 'full'

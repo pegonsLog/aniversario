@@ -29,336 +29,394 @@ var ANIVERSARIANTES: Aniversariante[] =
       id: 1,
       nome: 'Abdo Elias',
       cargo: 'Fiscal',
-      diaAniversario: '28/Setembro'
+      diaAniversario: 28,
+      mesAniversario: 'Setembro'
     },
     {
       id: 2,
       nome: 'Alexandre do Carmo',
       cargo: 'Fiscal',
-      diaAniversario: '24/Dezembro'
+      diaAniversario: 24,
+      mesAniversario: 'Dezembro'
     },
     {
       id: 3,
       nome: 'Almir Fabiano',
       cargo: 'Fiscal',
-      diaAniversario: '21/Setembro'
+      diaAniversario: 21,
+      mesAniversario: 'Setembro'
+
     },
     {
       id: 4,
       nome: 'Amanda Ferreira',
       cargo: 'Administrativo',
-      diaAniversario: '08/Maio'
+      diaAniversario: 8,
+      mesAniversario: 'Maio'     
     },
     {
       id: 5,
       nome: 'Amauri Timotheo',
       cargo: 'Fiscal',
-      diaAniversario: '14/Fevereiro'
+      diaAniversario: 14,
+      mesAniversario: 'Fevereiro'
+      
     },
     {
       id: 6,
       nome: 'Ana Cristina',
       cargo: 'Fiscal',
-      diaAniversario: '02/Março'
+      diaAniversario: 2,
+      mesAniversario: 'Março'
     },
     {
       id: 7,
       nome: 'Anderson Ribas',
       cargo: 'Fiscal',
-      diaAniversario: '23/Outubro'
+      diaAniversario: 23,
+      mesAniversario: 'Outubro'
     },
     {
       id: 8,
       nome: 'Antônio Natalino',
       cargo: 'Fiscal',
-      diaAniversario: '25/Dezembro'
+      diaAniversario: 25,
+      mesAniversario: 'Dezembro'
     },
     {
       id: 9,
       nome: 'Antônio Nunes',
       cargo: 'Fiscal',
-      diaAniversario: '30/Abril'
+      diaAniversario: 30,
+      mesAniversario: 'Abril'
     },
     {
       id: 10,
       nome: 'Ary Cézar',
       cargo: 'Técnico',
-      diaAniversario: '18/Fevereiro'
+      diaAniversario: 18,
+      mesAniversario: 'Fevereiro'
     },
     {
       id: 11,
       nome: 'Cleóbulo Nunes',
       cargo: 'Fiscal',
-      diaAniversario: '09/Janeiro'
+      diaAniversario: 9,
+      mesAniversario: 'Janeiro'
     },
     {
       id: 12,
       nome: 'Cíntia Fleming',
       cargo: 'Fiscal',
-      diaAniversario: '08/Fevereiro'
+      diaAniversario: 8,
+      mesAniversario: 'Fevereiro'
     },
     {
       id: 13,
       nome: 'Demétrios Navais',
       cargo: 'Fiscal',
-      diaAniversario: '22/Maio'
+      diaAniversario: 22,
+      mesAniversario: 'Maio'
     },
     {
       id: 14,
       nome: 'Eduardo Alves',
       cargo: 'Fiscal',
-      diaAniversario: '20/Janeiro'
+      diaAniversario: 20,
+      mesAniversario: 'Janeiro'
     },
     {
       id: 15,
       nome: 'Elenice Canuto',
       cargo: 'Fiscal',
-      diaAniversario: '07/Maio'
+      diaAniversario: 7,
+      mesAniversario: 'Maio'
     },
     {
       id: 16,
       nome: 'Eliane Vanessa',
       cargo: 'Fiscal',
-      diaAniversario: '24/Outubro'
+      diaAniversario: 24,
+      mesAniversario: 'Outubro'
     },
     {
       id: 17,
       nome: 'Emerson Silva',
       cargo: 'Fiscal',
-      diaAniversario: '22/Fevereiro'
+      diaAniversario: 22,
+      mesAniversario: 'Fevereiro'
     },
     {
       id: 18,
       nome: 'Everaldo da Mata',
       cargo: 'Supervisor',
-      diaAniversario: '18/Julho'
+      diaAniversario: 18,
+      mesAniversario: 'Julho'
     },
     {
       id: 19,
       nome: 'Fernando Rezende',
       cargo: 'Analista',
-      diaAniversario: '03/Setembro'
+      diaAniversario: 3,
+      mesAniversario: 'Setembro'
     },
     {
       id: 20,
       nome: 'Flávio André',
       cargo: 'Coordenador',
-      diaAniversario: '03/Dezembro'
+      diaAniversario: 3,
+      mesAniversario: 'Dezembro'
     },
     {
       id: 21,
       nome: 'Florindo Peroni',
       cargo: 'Coordenador',
-      diaAniversario: '25/Novembro'
+      diaAniversario: 25,
+      mesAniversario: 'Novembro'
     },
     {
       id: 22,
       nome: 'Gilberto Geraldo',
       cargo: 'Técnico',
-      diaAniversario: '08/Outubro'
+      diaAniversario: 8,
+      mesAniversario: 'Outubro'
     },
     {
       id: 23,
       nome: 'Gilberto Marcos',
       cargo: 'Fiscal',
-      diaAniversario: '10/Outubro'
+      diaAniversario: 10,
+      mesAniversario: 'Outubro'
     },
     {
       id: 24,
       nome: 'Gilmar Bacelete',
       cargo: 'Fiscal',
-      diaAniversario: '03/Dezembro'
+      diaAniversario: 3,
+      mesAniversario: 'Dezembro'
     },
     {
       id: 25,
       nome: 'Gisele Tolentino',
       cargo: 'Fiscal',
-      diaAniversario: '08/Fevereiro'
+      diaAniversario: 25,
+      mesAniversario: 'Fevereiro'
     },
     {
       id: 26,
       nome: 'Helenice Margareth',
       cargo: 'Secretária',
-      diaAniversario: '20/Fevereiro'
+      diaAniversario: 20,
+      mesAniversario: 'Fevereiro'
     },
     {
       id: 27,
       nome: 'Heraldo Carneiro',
       cargo: 'Fiscal',
-      diaAniversario: '16/Outubro'
+      diaAniversario: 16,
+      mesAniversario: 'Outubro'
     },
     {
       id: 28,
       nome: 'Hipólito Garcia',
       cargo: 'Fiscal',
-      diaAniversario: '15/Janeiro'
+      diaAniversario: 15,
+      mesAniversario: 'Janeiro'
     },
     {
       id: 29,
       nome: 'Iêda Milton',
       cargo: 'Fiscal',
-      diaAniversario: '31/Outubro'
+      diaAniversario: 31,
+      mesAniversario: 'Outubro'
     },
     {
       id: 30,
       nome: 'Igor Gonçalves',
       cargo: 'Fiscal',
-      diaAniversario: '23/Fevereiro'
+      diaAniversario: 23,
+      mesAniversario: 'Fevereiro'
     },
     {
       id: 31,
       nome: 'Jaime Calisto',
       cargo: 'Fiscal',
-      diaAniversario: '17/Abril'
+      diaAniversario: 17,
+      mesAniversario: 'Abril'
     },
     {
       id: 32,
       nome: 'José Orestes',
       cargo: 'Fiscal',
-      diaAniversario: '20/Março'
+      diaAniversario: 20,
+      mesAniversario: 'Março'
     },
     {
       id: 33,
       nome: 'José Renato',
       cargo: 'Analista',
-      diaAniversario: '31/Agosto'
+      diaAniversario: 31,
+      mesAniversario: 'Agosto'
     },
     {
       id: 34,
       nome: 'Josué Ferreira',
       cargo: 'Fiscal',
-      diaAniversario: '24/Outubro'
+      diaAniversario: 24,
+      mesAniversario: 'Outubro'
     },
     {
       id: 35,
       nome: 'Juarez Magalhães',
       cargo: 'Fiscal',
-      diaAniversario: '11/Abril'
+      diaAniversario: 11,
+      mesAniversario: 'Abril'
     },
     {
       id: 36,
       nome: 'Júnio Eduardo',
       cargo: 'Fiscal',
-      diaAniversario: '27/Dezembro'
+      diaAniversario: 27,
+      mesAniversario: 'Dezembro'
     },
     {
       id: 37,
       nome: 'Luciano Evaristo',
       cargo: 'Fiscal',
-      diaAniversario: '10/Agosto'
+      diaAniversario: 10,
+      mesAniversario: 'Agosto'
     },
     {
       id: 38,
       nome: 'Lucinéia Viana',
       cargo: 'Recepcionista',
-      diaAniversario: '05/Agosto'
+      diaAniversario: 5,
+      mesAniversario: 'Agosto'
     },
     {
       id: 39,
       nome: 'Marcelo Elias',
       cargo: 'Fiscal',
-      diaAniversario: '26/Outubro'
+      diaAniversario: 26,
+      mesAniversario: 'Outubro'
     },
     {
       id: 40,
       nome: 'Modesto Pereira',
       cargo: 'Fiscal',
-      diaAniversario: '21/Julho'
+      diaAniversario: 21,
+      mesAniversario: 'Julho'
     },
     {
       id: 41,
       nome: 'Mônica Aparecida',
       cargo: 'Fiscal',
-      diaAniversario: '09/Julho'
+      diaAniversario: 9,
+      mesAniversario: 'Julho'
     },
     {
       id: 42,
       nome: 'Natália Bibiana',
       cargo: 'Técnica',
-      diaAniversario: '02/Dezembro'
+      diaAniversario: 2,
+      mesAniversario: 'Dezembro'
     },
     {
       id: 43,
       nome: 'Pedro Gonçalves',
       cargo: 'Fiscal',
-      diaAniversario: '28/Junho'
+      diaAniversario: 28,
+      mesAniversario: 'Junho'
     },
     {
       id: 44,
       nome: 'Péricles Eduardo',
       cargo: 'Fiscal',
-      diaAniversario: '24/Julho'
+      diaAniversario: 24,
+      mesAniversario: 'Julho'
     },
     {
       id: 45,
       nome: 'Renato Miranda',
       cargo: 'Coordenador',
-      diaAniversario: '15/Agosto'
+      diaAniversario: 15,
+      mesAniversario: 'Agosto'
     },
     {
       id: 46,
       nome: 'Richardson da Silva',
       cargo: 'Motorista',
-      diaAniversario: '28/Março'
+      diaAniversario: 28,
+      mesAniversario: 'Março'
     },
     {
       id: 47,
       nome: 'Roberto Coelho',
       cargo: 'Fiscal',
-      diaAniversario: '12/Setembro'
+      diaAniversario: 12,
+      mesAniversario: 'Setembro'
     },
     {
       id: 48,
       nome: 'Roberto Emiliano',
       cargo: 'Serviços Gerais',
-      diaAniversario: '17/Março'
+      diaAniversario: 17,
+      mesAniversario: 'Março'
     },
     {
       id: 49,
       nome: 'Roberto Junior',
       cargo: 'Fiscal',
-      diaAniversario: '26/Abril'
+      diaAniversario: 26,
+      mesAniversario: 'Abril'
     },
     {
       id: 50,
       nome: 'Rosalino José',
       cargo: 'Fiscal',
-      diaAniversario: '17/Setembro'
+      diaAniversario: 17,
+      mesAniversario: 'Setembro'
     },
     {
       id: 51,
       nome: 'Rubens Fernandes',
       cargo: 'Fiscal',
-      diaAniversario: '01/Janeiro'
+      diaAniversario: 1,
+      mesAniversario: 'Janeiro'
     },
     {
       id: 52,
       nome: 'Simone Christine',
       cargo: 'Administrativo',
-      diaAniversario: '30/Outubro'
+      diaAniversario: 30,
+      mesAniversario: 'Outubro'
     },
     {
       id: 53,
       nome: 'Valéria Miranda',
       cargo: 'Fiscal',
-      diaAniversario: '24/Novembro'
+      diaAniversario: 24,
+      mesAniversario: 'Novembro'
     },
     {
       id: 54,
       nome: 'Victor Severino',
       cargo: 'Fiscal',
-      diaAniversario: '06/Novembro'
+      diaAniversario: 6,
+      mesAniversario: 'Novembro'
     },
     {
       id: 55,
       nome: 'Viviane Ceres',
       cargo: 'Fiscal',
-      diaAniversario: '13/Setembro'
+      diaAniversario: 13,
+      mesAniversario: 'Setembro'
     },
     {
       id: 56,
       nome: 'William Servino',
       cargo: 'Supervisor',
-      diaAniversario: '12/Setembro'
+      diaAniversario: 12,
+      mesAniversario: 'Setembro'
     },
   ]
