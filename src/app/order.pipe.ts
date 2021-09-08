@@ -10,10 +10,10 @@ export class OrderPipe implements PipeTransform {
 
   transform(list: Aniversariante[], params?: number): Aniversariante[] {
 
-    //if(params.length){
+    if(params){
      return list.sort(sortBy(params));
-   // }
-   // return null;
+    }
+    return null;
   }
 
 }

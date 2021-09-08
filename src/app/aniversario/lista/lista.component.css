@@ -39,7 +39,7 @@ h2 {
   margin-top: 7px;
   margin-bottom: 40px;
 }
-.texto-centralizado{
-  text-align: center;
+.texto-align-right {
+  text-align: right;
 }
 

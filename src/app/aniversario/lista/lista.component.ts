@@ -11,7 +11,7 @@ export class ListaComponent implements OnInit {
 
   aniversariantesFiltrados: Aniversariante[] = [];
 
-  _aniversariantes: Aniversariante[] = []; 
+  _aniversariantes: Aniversariante[] = [];
 
   _filtrarNome: string = '';
   _filtrarData: string = '';

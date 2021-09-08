@@ -31,18 +31,16 @@
         <tr>
           <th>Nome</th>
           <th>Cargo</th>
-          <th class="texto-centralizado">Dia</th>
-          <th class="texto-centralizado">Mês</th>
-
+          <th>Dia do aniversário</th>
           <!--<th class="text-center d-print-none">Opção</th> -->
         </tr>
       </thead>
       <tbody>
-        <tr *ngFor="let aniversariante of aniversariantesFiltrados | order: diaAniversario">
+        <tr *ngFor="let aniversariante of aniversariantesFiltrados">
           <td>{{ aniversariante.nome }}</td>
           <td>{{ aniversariante.cargo }}</td>
-          <td class="texto-centralizado">{{ aniversariante.diaAniversario }}</td>
-          <td class="texto-centralizado">{{ aniversariante.mesAniversario }}</td>
+          <td>{{ aniversariante.diaAniversario }}/{{ aniversariante.mesAniversario }}</td>
+
           <!-- <td class="d-print-none">
             <a [routerLink]="['/aniversario/edicao', aniversariante.id]" class="btn btn-info btn-sm mr-2">Editar</a
             >

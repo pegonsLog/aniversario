@@ -52,7 +52,7 @@ var ANIVERSARIANTES: Aniversariante[] =
       nome: 'Amanda Ferreira',
       cargo: 'Administrativo',
       diaAniversario: 8,
-      mesAniversario: 'Maio'     
+      mesAniversario: 'Maio'
     },
     {
       id: 5,
@@ -60,7 +60,7 @@ var ANIVERSARIANTES: Aniversariante[] =
       cargo: 'Fiscal',
       diaAniversario: 14,
       mesAniversario: 'Fevereiro'
-      
+
     },
     {
       id: 6,
