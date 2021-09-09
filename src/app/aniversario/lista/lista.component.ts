@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { AniversarianteService } from '../../shared/services/aniversariante.service';
+import { AniversarianteService } from '../../core/aniversariante.service';
 import { Aniversariante } from '../../shared/model/aniversariante';
 
 @Component({
@@ -20,7 +20,7 @@ export class ListaComponent implements OnInit {
 
   ngOnInit(): void {
 
-    this._aniversariantes = this.aniversarianteService.retrieveAll();
+    this.aniversarianteService.retrieveAll().subscribe((aniversariantes: Aniversariante[]) => this._aniversariantes = aniversariantes);
     this.aniversariantesFiltrados = this._aniversariantes;
 
   }

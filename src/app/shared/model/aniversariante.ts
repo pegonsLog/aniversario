@@ -1,9 +1,9 @@
-export class Aniversariante {
+export interface Aniversariante {
 
-    id: number = 0;
-    nome: string = '';
-    cargo: string = '';
-    diaAniversario: number = 0;
-    mesAniversario: string = '';
+    id: number;
+    nome: string;
+    cargo: string;
+    diaAniversario: number;
+    mesAniversario: string;
 
 }
